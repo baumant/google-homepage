@@ -27,10 +27,12 @@ a:hover{
 	text-align: center;
 }
 
-#search {
+input[type="search"] {
 	width: 484px;
 	height: 30px;
 	padding: 5px;
+	-webkit-appearance: none;
+	
 }
 
 input[type="search"]::-webkit-search-cancel-button {
