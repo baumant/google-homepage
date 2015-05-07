@@ -22,17 +22,35 @@ a:hover{
 	text-decoration: underline;
 }
 
+.blocks,#blocks{
+	background-image: url(https://ssl.gstatic.com/gb/images/i2_9ef0f6fa.png);
+  	background-position: -326px -54px;
+  	background-size: 356px 144px;
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 30px;
+  	height: 30px;
+  	line-height: normal;
+
+}
+
 .center{
-	padding-top: 8em;
+	padding-top: 12em;
+	padding-bottom: 1em;
 	text-align: center;
 }
 
 input[type="search"] {
-	width: 484px;
+	width: 500px;
 	height: 30px;
 	padding: 5px;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.0980392);
 	-webkit-appearance: none;
-	
+}
+input[type="search"]:focus {
+    outline: 1px solid;
+    outline-color: #4d90fe;
 }
 
 input[type="search"]::-webkit-search-cancel-button {
@@ -47,6 +65,8 @@ input[type=submit]{
 	border: 1px solid;
 	padding-left: 8px;
 	padding-right: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	line-height: 27px;
 	font-size: 11px;
 	font-family: arial, sans-serif;
@@ -67,7 +87,7 @@ footer {
 	position: absolute;
 	bottom: 0px;
 	height: 35px;
-	width: 100%;
+	
 	display: inline-block;
 
 }
