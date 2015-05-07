@@ -1,6 +1,12 @@
+*{
+	margin: 0;
+}
+html, body{
+	height: 100%;
+}
 .nav{
 	list-style-type: none;
-	padding: 0;
+	padding-top: 10px;
 	margin: 0;
 	float: left;
 	text-align: right;
@@ -11,33 +17,69 @@
 
 li{
 	display: inline;
-	padding: 5px;
+	padding: 7px;
 }
 
 a{
 	text-decoration: none;
-	color: black;
+	color: rgb(64, 64, 64);
 }
 a:hover{
 	text-decoration: underline;
+	color: rgb(34, 34, 34);
 }
 
-.blocks,#blocks{
-	background-image: url(https://ssl.gstatic.com/gb/images/i2_9ef0f6fa.png);
-  	background-position: -326px -54px;
+#blocks{
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+  	background-position: -326px -52px;
   	background-size: 356px 144px;
   	display: inline-block;
   	vertical-align: middle;
   	width: 30px;
   	height: 30px;
-  	line-height: normal;
+}
 
+#bell{
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+    background-position: -214px -117px;
+    background-size: 356px 144px;
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 20px;
+  	height: 20px;
+	border-radius: 50%;
+}
+
+#plus{
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+	background-position: -326px -17px;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#profile{
+	background-image: url(https://lh4.googleusercontent.com/-D1o8vt5GBmo/AAAAAAAAAAI/AAAAAAAAAAA/0lmvzqO3KNY/s32-c/photo.jpg);
+	background-size: 32px 32px;
+	border-radius: 50%;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .center{
 	padding-top: 12em;
 	padding-bottom: 1em;
 	text-align: center;
+}
+
+img{
+	height: 95px;
+	width: 269px;
+	padding: 10px;
 }
 
 input[type="search"] {
@@ -77,25 +119,33 @@ input[type=submit]{
 	border-radius: 2px;
 }
 
-.main{
+.wrapper {
 	min-height: 100%;
+	margin: 0 auto -40px;
 }
+
 footer {
 	font-family: arial, sans-serif;
 	font-size: 10pt;
 	background-color: rgb(245, 245, 245);
-	position: absolute;
 	bottom: 0px;
-	height: 35px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 0;
+	width: 100%;
 	
-	display: inline-block;
-
+	min-width: 500px;
 }
 
-.left {
-	text-align: left;
-	padding: 24px;
+.left a{
+	float: left;
+	padding-left: 30px;
+	color: rgb(102, 102, 102);
+	
 }
-.right{
-	text-align: right;
+.right a{
+	float: right;
+	padding-right: 30px;
+	color: rgb(102, 102, 102);
 }
