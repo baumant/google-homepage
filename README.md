@@ -1,3 +1,3 @@
 # google-homepage
-Recreation of Google's homepage
-http://www.theodinproject.com/web-development-101/html-css?ref=lnav
+<p>Recreation of Google's Hompage styling I did while learning HTML/CSS </p>
+<p>Part of The Odin Project's online course</p>
